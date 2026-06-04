@@ -56,4 +56,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/sample-python:latest
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/git_action_py
